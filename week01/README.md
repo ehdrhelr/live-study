@@ -13,3 +13,5 @@
 - JIT 컴파일러란 무엇이며 어떻게 동작하는지
 - JVM 구성 요소
 - JDK와 JRE의 차이
+
+<h4><a href="https://www.notion.so/1-JVM-210bcede445d45848b32b245d87cd4d6">학습정리</a></h4>

@@ -39,18 +39,35 @@ class LinkedList { // 노드를 감싼 Linked List를 구현
         }
         System.out.println(n.data);
     }
+
+    void removeDups() {
+        Node n = header;
+        while (n != null && n.next != null) {
+            Node r = n;
+            while (r.next != null) {
+                if (n.data == r.next.data) {
+                    r.next = r.next.next;
+                } else {
+                    r = r.next;
+                }
+            }
+            n = n.next;
+        }
+    }
 }
 
 public class LinkedListNode {
     public static void main(String[] args) {
         LinkedList ll = new LinkedList();
+        ll.add(2);
         ll.add(1);
         ll.add(2);
         ll.add(3);
         ll.add(4);
+        ll.add(4);
+        ll.add(2);
         ll.retrive();
-        ll.remove(1);
+        ll.removeDups();
         ll.retrive();
-        
     }
 }

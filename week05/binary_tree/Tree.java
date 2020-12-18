@@ -48,6 +48,13 @@ public class Tree {
     }
 }
 
+/**   
+ *       1
+ *      / \
+ *     2   3 
+ *    / \
+ *   4   5
+ */     
 class Test {
     public static void main(String[] args) {
         Tree t = new Tree();
@@ -58,8 +65,8 @@ class Test {
         Node n1 = t.makeNode(n2, 1, n3);
 
         t.setRoot(n1);
-        // t.inorder(t.getRoot());
+        t.inorder(t.getRoot());
         // t.preorder(t.getRoot());
-        t.postorder(t.getRoot());
+        // t.postorder(t.getRoot());
     }
 }

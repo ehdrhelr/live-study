@@ -6,11 +6,11 @@
 
 <h3>학습할 것 (필수)</h3>
 
-애노테이션 정의하는 방법
-@retention
-@target
-@documented
-애노테이션 프로세서
+- 애노테이션 정의하는 방법
+- @retention
+- @target
+- @documented
+- 애노테이션 프로세서
 
 <h3>마감일시</h3>
 

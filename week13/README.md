@@ -1,5 +1,7 @@
 <h2>13주차 과제: I/O</h2>
 
+<h3><a href="https://www.notion.so/13-I-O-5c84f47703f64d9ea66c6151e126aad1">(학습정리)</a></h3>
+
 <h3>목표</h3>
 
 자바의 Input과 Ontput에 대해 학습하세요.
